@@ -115,7 +115,7 @@ module.exports.otpForUser = async (req, res) => {
 
 module.exports.loginUser = async (req,res) => {
 
-console.log("user try to login :", req.body)
+console.log("User data login :", req.body)
 
 let email = req.body.email
 let password = req.body.password
